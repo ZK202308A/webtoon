@@ -47,7 +47,7 @@ public class GS25Goods {
 
         Document document = response.parse();
 
-        System.out.println(document);
+        System.out.println(document.body().text());
 
     }//end main
 }//end class
